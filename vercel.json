@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run develop",
+  "installCommand": "npm install --legacy-peer-deps",
+  "framework": "gatsby",
+  "outputDirectory": "public"
+}
