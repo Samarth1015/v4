@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import { srConfig, email } from '@config';
+import { srConfig, email, phone } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
@@ -35,9 +35,22 @@ const StyledContactSection = styled.section`
     font-size: clamp(40px, 5vw, 60px);
   }
 
-  .email-link {
-    ${({ theme }) => theme.mixins.bigButton};
+  .contact-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 50px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .email-link,
+  .whatsapp-link {
+    ${({ theme }) => theme.mixins.bigButton};
   }
 `;
 
@@ -60,13 +73,24 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        I'm always excited to chat about product engineering, infrastructure, or collaboration
+        opportunities. Drop me a note and I'll get back as soon as I step away from my terminal.
       </p>
 
-      <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
-      </a>
+      <div className="contact-links">
+        <a
+          className="email-link"
+          href={`mailto:${email}?subject=${encodeURIComponent('Hello from Portfolio')}`}>
+          Gmail
+        </a>
+        <a
+          className="whatsapp-link"
+          href={`https://wa.me/${phone.replace(/[^0-9]/g, '')}`}
+          target="_blank"
+          rel="noopener noreferrer">
+          WhatsApp
+        </a>
+      </div>
     </StyledContactSection>
   );
 };

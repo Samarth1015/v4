@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Go (Golang)',
+    'TypeScript / JavaScript',
+    'React & Next.js',
+    'Node.js & Express',
+    'PostgreSQL / Supabase',
+    'Kubernetes & Docker',
+    'Redis & RabbitMQ',
+    'Apache Kafka',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +144,39 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Hello! I’m Samarth, a 3<sup>rd</sup>-year Computer Science student at{' '}
+              <a href="https://www.iiitvadodara.ac.in/" target="_blank" rel="noreferrer">
+                IIIT Vadodara
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              who enjoys building distributed systems, polished web experiences, and anything that
+              helps developers ship faster.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>
+              I’ve recently been crafting AI agent infrastructure at{' '}
+              <a href="https://www.omaverse.ai/" target="_blank" rel="noreferrer">
+                Omaverse
+              </a>
+              , freelancing with{' '}
+              <a href="https://crida.in/" target="_blank" rel="noreferrer">
+                Crida
+              </a>{' '}
+              on a full-stack sports facility platform, and previously interned at{' '}
+              <a href="https://rackbank.com/" target="_blank" rel="noreferrer">
+                RackBank Datacenters
+              </a>{' '}
+              where I contributed upstream to the open-source{' '}
+              <a href="https://github.com/rclone/rclone/pull/8613" target="_blank" rel="noreferrer">
+                rclone
+              </a>{' '}
+              project.
+            </p>
+
+            <p>
+              Outside of work you can find me at hackathons, tinkering with observability stacks, or
+              mentoring juniors on modern web tooling. Here are a few technologies I’ve been using
+              lately:
+            </p>
           </div>
 
           <ul className="skills-list">
@@ -173,11 +188,11 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/IMG-20251201-WA0020.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Headshot"
+              alt="Samarth Acharya"
             />
           </div>
         </StyledPic>

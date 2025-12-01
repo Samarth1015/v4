@@ -1,26 +1,19 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'samarth.acharya2005@gmail.com',
+  phone: '+917987738993',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://github.com/Samarth1015',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/samarth-acharya-181571283',
     },
     {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      name: 'Twitter',
+      url: 'https://twitter.com/samarth_codes',
     },
   ],
 
@@ -36,6 +29,10 @@ module.exports = {
     {
       name: 'Work',
       url: '/#projects',
+    },
+    {
+      name: 'Achievements',
+      url: '/#achievements',
     },
     {
       name: 'Contact',
