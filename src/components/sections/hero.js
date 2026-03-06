@@ -61,20 +61,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Samarth Acharya.</h2>;
-  const three = <h3 className="big-heading">I ship cloud platforms & AI agents.</h3>;
+  const three = <h3 className="big-heading">I build robust software and web applications.</h3>;
   const four = (
     <>
       <p>
-        I’m a full-stack engineer who loves taking products from whiteboard sketch to production
-        telemetry. These days I’m building autonomous agent tooling and developer workflows at{' '}
-        <a href="https://www.omaverse.ai/" target="_blank" rel="noreferrer">
-          Omaverse
-        </a>{' '}
-        and leading a sports-booking platform for{' '}
-        <a href="https://crida.in/" target="_blank" rel="noreferrer">
-          Crida
-        </a>
-        .
+        I’m a full-stack software engineer and a 3<sup>rd</sup>-year student at IIIT Vadodara. I
+        have worked with over 5 companies helping them build and scale products. Currently, I am
+        deeply involved in GenAI implementations and building MCP (Model Context Protocol) servers.
       </p>
     </>
   );

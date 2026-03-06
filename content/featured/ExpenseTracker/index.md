@@ -13,4 +13,7 @@ tech:
 cta: ''
 ---
 
-Production-grade deployment for an expense tracker platform that runs four Go API pods, a React frontend, and Postgres inside a hardened Kubernetes namespace. Includes JWT auth, GitHub → Jenkins pipelines, Calico network policies, Promtail/Loki observability, and scripted rollouts for every environment.
+Production-grade deployment for an expense tracker platform running on Kubernetes.
+
+- Dockerized **Go** API with JWT auth + **PostgreSQL** and drove GitHub→Jenkins CI/CD.
+- Ran multi-pod **Kubernetes** stack (`go-app`) with **Calico** policies, Promtail/Loki logs, and YAML IaC.

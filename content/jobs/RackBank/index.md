@@ -1,12 +1,13 @@
 ---
-date: '2024-05-01'
+date: '2025-05-01'
 title: 'SDE Intern'
 company: 'RackBank Datacenters'
 location: 'Indore, India'
-range: 'May 2024 – Aug 2024'
+range: 'May 2025 – Aug 2025'
 url: 'https://rackbank.com/'
 ---
 
-- Deployed containerized workloads, configured Kubernetes clusters, and tuned virtualization stacks for customer environments.
-- Added **Zata S3** support to the open-source [`rclone`](https://github.com/rclone/rclone/pull/8613) project while building Go services with Promtail, Loki, and Grafana for centralized observability.
-- Shipped iterative improvements to RackBank’s public website and internal tooling in partnership with design and marketing stakeholders.
+- Deployed containerized workloads, stood up Kubernetes clusters, and optimized virtualization stacks for customer environments.
+- Contributed upstream to [`rclone`](https://github.com/rclone/rclone/pull/8613) (Zata S3 support) and built Go services with Promtail/Loki/Grafana for centralized observability.
+- Played a key role in building RackBank’s web presence.
+- Stipend: ₹10,000/month

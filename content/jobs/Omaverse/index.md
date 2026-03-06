@@ -1,12 +1,13 @@
 ---
-date: '2024-10-01'
-title: 'SDE Intern – AI Agents'
+date: '2025-10-01'
+title: 'SDE Intern'
 company: 'Omaverse'
 location: 'Remote'
-range: 'Oct 2024 – Present'
+range: 'Oct 2025 – Dec 2025'
 url: 'https://www.omaverse.ai/'
 ---
 
-- Design and deploy autonomous **AI agents** that orchestrate internal tools, retrieval pipelines, and sandboxed execution environments for enterprise use cases.
-- Build adapters for vector search, knowledge ingestion, and policy enforcement to keep high-risk actions safe while retaining velocity.
-- Own the full DevOps loop—IaC templates, container builds, observability dashboards, and blue/green rollouts across cloud environments.
+- Built **TypeScript** APIs and tools for AI agents to interact with internal systems and execute workflows.
+- Integrated sandbox feature for the company, enabling secure execution environments for agent operations.
+- Developed browser automation capabilities allowing agents to navigate and interact with web interfaces programmatically.
+- Stipend: ₹20,000/month

@@ -1,11 +1,12 @@
 ---
-date: '2024-10-05'
-title: 'Freelance Full-Stack Engineer'
-company: 'Crida – Sports Facility Platform'
+date: '2025-10-05'
+title: 'Software Engineering Intern'
+company: 'Cridaa'
 location: 'Remote'
-range: 'Oct 2024 – Present'
+range: 'Oct 2025 – Present'
 url: 'https://crida.in/'
 ---
 
-- Building an end-to-end **React + Vite** experience to discover facilities, reserve slots, and manage memberships with secure APIs and role-based access.
-- Implementing the booking engine, payment orchestration, analytics dashboards, and automated deployments so the operations team can ship updates weekly.
+- Providing end-to-end flow for clients using **React + Vite** frontend, managing multiple microservices deployed on **AWS**.
+- Building and maintaining APIs, orchestrating microservices, and handling production deployments for facility booking.
+- Stipend: ₹15,000/month

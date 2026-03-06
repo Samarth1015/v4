@@ -126,14 +126,14 @@ const About = () => {
   }, []);
 
   const skills = [
-    'Go (Golang)',
-    'TypeScript / JavaScript',
     'React & Next.js',
-    'Node.js & Express',
-    'PostgreSQL / Supabase',
-    'Kubernetes & Docker',
-    'Redis & RabbitMQ',
-    'Apache Kafka',
+    'TypeScript / JavaScript',
+    'Go (Golang) / Python',
+    'Java / C++ / C',
+    'Node.js & Express / Spring Boot',
+    'PostgreSQL / MongoDB / Redis',
+    'AWS / Docker / Kubernetes',
+    'Supabase / Firebase',
   ];
 
   return (
@@ -144,39 +144,32 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! I’m Samarth, a 3<sup>rd</sup>-year Computer Science student at{' '}
+              Hello! my name is Samarth, a passionate software engineer and a 3<sup>rd</sup>-year
+              Computer Science student at{' '}
               <a href="https://www.iiitvadodara.ac.in/" target="_blank" rel="noreferrer">
                 IIIT Vadodara
-              </a>{' '}
-              who enjoys building distributed systems, polished web experiences, and anything that
-              helps developers ship faster.
-            </p>
-
-            <p>
-              I’ve recently been crafting AI agent infrastructure at{' '}
-              <a href="https://www.omaverse.ai/" target="_blank" rel="noreferrer">
-                Omaverse
               </a>
-              , freelancing with{' '}
-              <a href="https://crida.in/" target="_blank" rel="noreferrer">
-                Crida
-              </a>{' '}
-              on a full-stack sports facility platform, and previously interned at{' '}
-              <a href="https://rackbank.com/" target="_blank" rel="noreferrer">
-                RackBank Datacenters
-              </a>{' '}
-              where I contributed upstream to the open-source{' '}
-              <a href="https://github.com/rclone/rclone/pull/8613" target="_blank" rel="noreferrer">
-                rclone
-              </a>{' '}
-              project.
+              . My interest in software engineering started back when I realized the power of
+              writing code to solve real-world problems. Since then, I've loved building robust
+              backend architectures, polished web experiences, and scalable software solutions.
             </p>
 
             <p>
-              Outside of work you can find me at hackathons, tinkering with observability stacks, or
-              mentoring juniors on modern web tooling. Here are a few technologies I’ve been using
-              lately:
+              Fast-forward to today, I've had the privilege of working with more than 5 different
+              companies across various domains. My journey has given me deep insights into what it
+              takes to take an idea from a whiteboard sketch to a fully-functioning,
+              production-ready system. I've designed efficient databases, orchestrated containerized
+              deployments, and built seamless frontends.
             </p>
+
+            <p>
+              Currently, my primary focus is diving deep into the world of Artificial Intelligence.
+              I am actively working on GenAI implementations and developing custom MCP (Model
+              Context Protocol) servers to bridge the gap between large language models and external
+              tool ecosystems.
+            </p>
+
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">
@@ -188,7 +181,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/IMG-20251201-WA0020.jpg"
+              src="../../images/profile.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

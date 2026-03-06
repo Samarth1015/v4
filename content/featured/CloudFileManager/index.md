@@ -13,4 +13,7 @@ tech:
 cta: ''
 ---
 
-A desktop-like file manager that lets teams browse, upload, and secure assets inside Zata.ai S3 buckets. Features include Supabase-backed key vaults, encrypted transfers via an Express + Multer pipeline, full audit trails, and a responsive Next.js interface that works on every device.
+A desktop-like file manager that lets teams browse, upload, and secure assets inside Zata.ai S3 buckets.
+
+- Provisioned secure key vault in **Supabase Postgres** and desktop-like **Next.js** explorer.
+- Streamed encrypted transfers through **Express + Multer** pipeline to Zata.ai **S3** buckets on VM infra.
